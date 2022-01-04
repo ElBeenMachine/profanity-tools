@@ -1,4 +1,4 @@
-const { words } = require("profane-words");
+const filter = require("profane-words");
 
 class Profanity {
     identify(text) {
@@ -8,7 +8,7 @@ class Profanity {
         
         substring.forEach(element => {
             let wordMatches = [];
-            words.forEach(word => {
+            filter.forEach(word => {
                 const regex = new RegExp(word, "ig");
                 let matches = element.match(regex);
                 if(matches) {
@@ -38,7 +38,7 @@ class Profanity {
         substring.forEach(element => {
             let wordMatches = [];
             let isProfanic = false;
-            words.forEach(word => {
+            filter.forEach(word => {
                 let outputWord = "";
                 const regex = new RegExp(word, "ig");
                 let matches = element.match(regex);
