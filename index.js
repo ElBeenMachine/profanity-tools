@@ -27,7 +27,8 @@ class Profanity {
         
         let data = {
             identified_profanity: matchedWords,
-            isProfanic: matchedWords.length ? true : false
+            isProfanic: matchedWords.length ? true : false,
+            percentage: matchedWords.length ? `${Math.round((matchedWords.length / substring.length) * 100)}%` : "0%"
         }
 
         return data
