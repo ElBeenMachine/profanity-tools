@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "description": "A profanity filter",
   "main": "index.js",
+  "homepage": "https://github.com/ElBeenMachine/profanity-tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBeenMachine/profanity-tools.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ollie Beenham",
-  "license": "ISC",
-  "dependencies": {}
+  "keywords": [
+    "profanity",
+    "profanity tools",
+    "profaniy filter",
+    "swear words",
+    "swear word filtering",
+    "censoring"
+  ],
+  "author": "Ollie Beenham <beenhamow@outlook.com>",
+  "license": "ISC"
 }
