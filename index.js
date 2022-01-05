@@ -1,8 +1,10 @@
 const filter = require("profane-words");
 
+// Create the class
 class Profanity {
+    // Function to identify profanity within a string
     identify(text) {
-        const substring = text.split(" ");
+        const substring = text.split(" "); // Split the string into an array, separated by spaces
 
         let matchedWords = [];
         
