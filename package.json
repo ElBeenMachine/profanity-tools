@@ -1,6 +1,6 @@
 {
   "name": "profanity-tools",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A profanity filter",
   "main": "index.js",
   "homepage": "https://github.com/ElBeenMachine/profanity-tools",
